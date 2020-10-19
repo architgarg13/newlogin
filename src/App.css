@@ -1,0 +1,155 @@
+.App{
+  height: 100%;
+   display: flex;
+   color:white;
+ }
+ .App__Aside{
+   width: 50%;
+  
+   background-color:rgb(21,138,130);
+ }
+ h1{
+   text-align: center;
+   margin-top: 100px;
+   color: white;
+   font-size: 45px;
+   text-shadow: 3px 3px 5px;
+ 
+ }
+ .App__form{
+   width: 50%;
+   background-color:rgb(222, 253, 251);
+   padding: 25px 40px;
+   overflow: auto;
+ }
+ .FormField__Checkbox{
+   position: relative;
+   top: 1.5px;
+ }
+ .FormField__TermsLink{
+   color:rgba(113, 133, 153, 0.842);
+   border-bottom: 1px solid #199057;
+   text-decoration: none;
+   display: inline-block;
+   padding-bottom: 2px;
+   margin-left: 5px;
+ }
+ .para{
+   text-align: center;
+   font-size: 25px;
+   margin-top: 40px;
+   padding: 50px;
+ }
+ 
+ 
+ .FormField__Input{
+   box-sizing: border-box;
+   height: 40px;
+   
+   background: #eef5f3;
+   outline: 0;
+   border: none;
+   font-family: serif;
+   
+   border-radius: 20px;
+   color: #88908e;
+   padding: 0 16px;
+ 
+ }
+ 
+ .PageSwitcher{
+   display: flex;
+   justify-content: flex-end;
+   margin-bottom: 10%;
+   padding-right: 10%;
+ }
+ 
+ .FormField{
+   padding: 30px;
+   color: black;
+ 
+ }
+ 
+ 
+ .FormTitle__Link{
+   text-align: center;
+   color: rgb(127, 134, 134);
+   text-decoration: none;
+   font-size: 30px;
+ font-weight: 20px;
+ padding: 0 16px;
+ }
+ .formTitle__Link--Active{
+   text-align: center;
+   color: rgb(45, 48, 48);
+   text-decoration: none;
+   font-size: 30px;
+ font-weight: 20px;
+ padding: 0 16px;
+ 
+ 
+   
+ }
+ .formField__CheckboxLabel{
+   
+   color: rgb(64, 70, 70)
+   
+ 
+ }
+ .FormTitle{
+   color: rgb(45, 48, 48);
+ }
+ .formField__Checkbox{
+   color: rgb(45, 48, 48)
+ 
+ }
+ .PageSwitcher__Item
+ {
+   color: white;
+ display: inline-block;
+     padding: 10px 16px;
+     cursor: pointer;
+     border: none;
+     text-decoration: none;
+     background:rgb(21,138,130);
+     -webkit-transition: all 200ms ease;
+     transition: all 200ms ease;
+     border-radius: 8px;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     position: relative;
+     outline: none;
+     font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     font-size: 14px;
+     font-weight: 500;
+     line-height: 20px;
+     height: 40px;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     text-align: center;
+ }
+ .formField__Button{
+ display: inline-block;
+     padding: 10px 16px;
+     cursor: pointer;
+     border: none;
+     text-decoration: none;
+     background: #cbd4e7;
+     -webkit-transition: all 200ms ease;
+     transition: all 200ms ease;
+     border-radius: 8px;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     position: relative;
+     outline: none;
+     font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 20px;
+     height: 40px;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     text-align: center;
+ }
